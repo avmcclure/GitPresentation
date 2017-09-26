@@ -1,3 +1,3 @@
 # GitPresentation
 
-https://slides.com/alexmcclure/deck/edit
+https://slides.com/alexmcclure/deck/live#/
