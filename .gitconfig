@@ -29,6 +29,7 @@
   gra = "!f() { A=$(pwd) && TOPLEVEL=$(git rev-parse --show-toplevel) && cd $TOPLEVEL && git grep --full-name -In $1 | xargs -I{} echo $TOPLEVEL/{} && cd $A; }; f"
 # Delete branch
   bd = push origin --delete
+  jim = push origin --delete
 # Delete all merged branches
   bdm = "!git branch --merged | grep -v '*' | xargs -n 1 git branch -d"
 # Add unmerged files to staging
